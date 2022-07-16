@@ -1,0 +1,28 @@
+{
+  "name": "crud-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "crud-node/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node crud-node/index.js",
+    "server": "nodemon crud-node/index.js",
+    "client": "npm start --prefix contact_list_crud",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^6.3.8"
+  },
+  "devDependencies": {
+    "concurrently": "^6.0.2",
+    "nodemon": "^2.0.16"
+  }
+}
