@@ -1,0 +1,165 @@
+body {
+  margin: 1%;
+}
+
+.Hscreen {
+  margin: auto;
+  border: solid;
+  width: 50%;
+}
+
+.Hscreen header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  color: white;
+  background-color: #3d3d5e;
+}
+
+.Hscreen header h1 {
+  width: 80%;
+  margin: 1%;
+}
+
+.Hscreen header button {
+  width: 10%;
+  margin: 1%;
+  font-size: xxx-large;
+  color: white;
+  background: transparent;
+  border: none;
+}
+
+.Hscreen header button:hover {
+  color: wheat;
+  cursor: pointer;
+}
+
+.Hscreen ul {
+  padding: 0;
+}
+
+.Hscreen li {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  border-bottom: solid;
+  border-color: #f8f8f8;
+}
+
+.Hscreen li img {
+  width: 15%;
+}
+
+.Hscreen li h4 {
+  width: 60%;
+}
+
+.Hscreen li h4 p {
+  font-size: smaller;
+  color: #9d9d9d;
+}
+
+.Hscreen li button {
+  border: solid;
+  border-radius: 15%;
+  margin: 1%;
+  height: 3rem;
+  font-size: large;
+  font-family: cursive;
+}
+
+.Hscreen li #edit {
+  border-color: #147914;
+  background-color: #a3f1a3;
+}
+
+.Hscreen li #edit:hover {
+  background-color: #27f027;
+  cursor: pointer;
+}
+
+.Hscreen li #delete {
+  border-color: #791414;
+  background-color: #f8b0b0;
+}
+
+.Hscreen li #delete:hover {
+  background-color: #fa5959;
+  cursor: pointer;
+}
+
+.create {
+  margin: auto;
+  border: solid gray;
+  -webkit-box-shadow: 0 0 100rem gray;
+          box-shadow: 0 0 100rem gray;
+  padding: 1%;
+  background-color: white;
+  width: 30%;
+  font-family: inherit;
+}
+
+.create .firstname,
+.create .lastname,
+.create .number {
+  margin: 5%;
+}
+
+.create .firstname input,
+.create .lastname input,
+.create .number input {
+  margin-top: 2%;
+  margin-bottom: 2%;
+  width: 100%;
+  height: 2rem;
+}
+
+.create .buttons {
+  text-align: end;
+}
+
+.create .buttons button {
+  border: transparent;
+  font-weight: bolder;
+  margin: 1%;
+  height: 2rem;
+  border: solid;
+  border-radius: 2rem;
+  background-color: #b5b5b5;
+}
+
+.create .buttons #cancel {
+  border-color: #b5b5b5;
+}
+
+.create .buttons #cancel:hover {
+  background-color: #565656;
+  border-color: #565656;
+  cursor: pointer;
+  color: white;
+}
+
+.create .buttons #submit {
+  border-color: #71a6f0;
+  background-color: #71a6f0;
+}
+
+.create .buttons #submit:hover {
+  border-color: #1374fb;
+  background-color: #1374fb;
+  color: white;
+  cursor: pointer;
+}
+
+@media (max-width: 812px) {
+  .Hscreen {
+    width: 95%;
+  }
+  .create {
+    width: 95%;
+  }
+}
+/*# sourceMappingURL=style.css.map */
